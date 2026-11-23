@@ -1,0 +1,18 @@
+﻿# Secretos y credenciales
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Evidencia local del Guard (incluye project_id y contenido de los requests)
+logs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Sistema / editor
+.vscode/
+Thumbs.db
+.DS_Store
